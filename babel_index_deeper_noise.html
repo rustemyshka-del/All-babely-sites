@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7f5">
+<title>THE BABEL INDEX</title>
+<style>
+:root{--paper:#f7f7f5;--ink:#171717;--muted:#858580;--line:#dededb}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:13px/1.75 "Helvetica Neue",Arial,sans-serif;letter-spacing:.025em}
+#noise{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:5;opacity:.30;mix-blend-mode:multiply}
+main{position:relative;z-index:1;width:min(700px,calc(100% - 48px));margin:0 auto;padding:48px 0 44px}
+header{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;border-bottom:1px solid var(--line);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#777}
+header .mark{color:var(--ink)}
+.intro{padding:100px 0 88px}
+.kicker{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:#898984;margin-bottom:22px}
+h1{font:400 clamp(48px,10vw,88px)/.84 Georgia,"Times New Roman",serif;letter-spacing:-.075em;margin:0 0 30px}
+h1 span{font-style:italic;font-weight:400}
+.intro p{max-width:400px;color:#777;font:italic 15px/1.9 Georgia,"Times New Roman",serif;margin:0}
+.whisper{margin-top:38px;color:#888;font-size:9px;letter-spacing:.2em;text-transform:uppercase}
+section{border-top:1px solid var(--line);padding:23px 0 30px}
+h2{font-size:9px;font-weight:400;letter-spacing:.22em;text-transform:uppercase;color:#888;margin:0 0 17px}
+.entry{display:grid;grid-template-columns:30px 1fr auto;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px solid #e9e9e6}
+.entry:last-child{border-bottom:0}
+.num{font-size:9px;color:#aaa;font-variant-numeric:tabular-nums}
+.entry a{font:16px/1.5 Georgia,"Times New Roman",serif;color:#222;text-decoration:none;transition:opacity .2s}
+.entry a:hover{opacity:.48}
+.desc{font-size:9px;letter-spacing:.08em;color:#999;text-align:right}
+.closing{padding:70px 0 50px;text-align:center}
+.closing .symbol{font:48px/1 Georgia,serif;color:#aaa}
+.closing p{font:italic 14px Georgia,serif;color:#888;margin:18px 0 0}
+footer{border-top:1px solid var(--line);padding-top:14px;color:#aaa;font-size:9px;letter-spacing:.08em;display:flex;justify-content:space-between;gap:12px}
+a:focus-visible{outline:1px solid #222;outline-offset:4px}
+@media(max-width:520px){main{padding-top:28px}.intro{padding:78px 0 68px}.entry{grid-template-columns:24px 1fr}.desc{grid-column:2;text-align:left;margin-top:-8px}.closing{padding:55px 0 42px}footer{display:block}footer span{display:block;margin-top:4px}}
+@media(prefers-reduced-motion:reduce){#noise{display:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<canvas id="noise" aria-hidden="true"></canvas>
+<main>
+<header><span class="mark">B / ∞</span><span>Index of the Unwritten</span><span>Vol. 01</span></header>
+
+<div class="intro">
+<div class="kicker">[ access record 000 ] &nbsp; origin unknown</div>
+<h1>Do not<br>look for<br><span>the exit.</span></h1>
+<p>The shelves rearrange themselves when unobserved. A book has been waiting for you. Its pages are blank until you remember what you came here to forget.</p>
+<div class="whisper">Visitor count: unavailable &nbsp; / &nbsp; Your entry was expected.</div>
+</div>
+
+<section>
+<h2>I. Rooms for the Unwritten</h2>
+<div class="entry"><span class="num">01</span><a href="https://libraryofbabel.info/" target="_blank" rel="noopener">The Library of Babel</a><span class="desc">all possible pages ↗</span></div>
+<div class="entry"><span class="num">02</span><a href="https://libraryofbabel.app/" target="_blank" rel="noopener">Library of Babel App</a><span class="desc">the other catalogue ↗</span></div>
+<div class="entry"><span class="num">03</span><a href="https://jrhea.github.io/library-of-babel/" target="_blank" rel="noopener">JRhea's Library</a><span class="desc">pages without authors ↗</span></div>
+<div class="entry"><span class="num">04</span><a href="https://zmuhls.github.io/babylon-redux/" target="_blank" rel="noopener">Babylon Redux</a><span class="desc">fragments &amp; echoes ↗</span></div>
+</section>
+
+<section>
+<h2>II. Evidence of Other Shapes</h2>
+<div class="entry"><span class="num">05</span><a href="https://www.galleryofbabel.com/" target="_blank" rel="noopener">Gallery of Babel</a><span class="desc">every image, perhaps ↗</span></div>
+<div class="entry"><span class="num">06</span><a href="https://babelia.libraryofbabel.info/" target="_blank" rel="noopener">Babel Image Archives</a><span class="desc">visual coordinates ↗</span></div>
+</section>
+
+<section>
+<h2>III. Places Beneath the Index</h2>
+<div class="entry"><span class="num">07</span><a href="https://ofbabel.com/" target="_blank" rel="noopener">ofBabel</a><span class="desc">music, cities, chess ↗</span></div>
+<div class="entry"><span class="num">08</span><a href="https://github.com/emollick/library-of-babel" target="_blank" rel="noopener">3D Library of Babel</a><span class="desc">walk between the shelves ↗</span></div>
+<div class="entry"><span class="num">09</span><a href="https://github.com/smartlegionlab/smart-babylon-library" target="_blank" rel="noopener">Smart Babylon Library</a><span class="desc">a machine for infinity ↗</span></div>
+</section>
+
+<div class="closing"><div class="symbol">∴</div><p>There is no final page.<br>There is only the page you are on.</p><div class="whisper">[ end of record — continuation presumed ]</div></div>
+<footer><span>RECORD STATUS: UNRESOLVED</span><span>DO NOT TRUST THE PAGE COUNT.</span></footer>
+</main>
+<script>
+(()=> {
+ const c=document.getElementById('noise'),x=c.getContext('2d',{alpha:true});
+ let w=0,h=0,frame=0;
+ function resize(){w=c.width=Math.max(1,Math.ceil(innerWidth*.85));h=c.height=Math.max(1,Math.ceil(innerHeight*.85))}
+ function draw(){
+   const image=x.createImageData(w,h),d=image.data;
+   for(let i=0;i<d.length;i+=4){
+     const v=Math.random()<.5?0:255;
+     d[i]=d[i+1]=d[i+2]=v;
+     d[i+3]=Math.random()*185;
+   }
+   x.putImageData(image,0,0);
+ }
+ function loop(){
+   if(frame++%2===0)draw();
+   requestAnimationFrame(loop);
+ }
+ addEventListener('resize',resize,{passive:true});
+ resize();draw();loop();
+})();
+</script>
+</body>
+</html>
